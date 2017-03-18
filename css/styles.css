@@ -192,10 +192,6 @@
 
 .bookmaker-ico {
     position: relative;
-    display: inline-block
-}
-
-.bookmaker-ico:before {
     display: inline-block;
     font-family: 'Bookmaker';
     font-size: inherit;
@@ -207,6 +203,10 @@
     color: currentColor;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
+}
+
+.bookmaker-ico:before {
+    display: inline-block;
 }
 
 .bookmaker-ico_name_williamhill {
