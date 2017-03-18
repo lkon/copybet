@@ -64,9 +64,7 @@
 
 .brand-ico {
     position: relative;
-    height: 16px;
     font-size: 1.6rem;
-    line-height: 1;
     font-weight: 400
 }
 
@@ -183,7 +181,6 @@
     position: relative;
     display: inline-block;
     font-size: 1.6rem;
-    line-height: 1
 }
 
 .member-area-ico:before {
@@ -230,7 +227,7 @@
     font-weight: inherit;
     font-variant: normal;
     text-transform: none;
-    line-height: 20px;
+    line-height: inherit;
     color: currentColor;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
@@ -263,6 +260,6 @@
     content: "\E800"
 }
 
-body{
+.bookmaker-ico{
     background-color: pink;
 }
