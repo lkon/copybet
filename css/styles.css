@@ -1,0 +1,264 @@
+@font-face {
+    font-family: Qanelas Black;
+    src: url(../fonts/Qanelas-Black/Qanelas-Black.eot);
+    src: url(../fonts/Qanelas-Black/Qanelas-Black.eot?#iefix) format("embedded-opentype"), url(../fonts/Qanelas-Black/Qanelas-Black.woff) format("woff"), url(../fonts/Qanelas-Black/Qanelas-Black.ttf) format("truetype"), url(../fonts/Qanelas-Black/Qanelas-Black.otf) format("opentype"), url(../fonts/Qanelas-Black/Qanelas-Black.svg#Qanelas-Black) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Qanelas Medium;
+    src: url(../fonts/Qanelas-Medium/Qanelas-Medium.eot);
+    src: url(../fonts/Qanelas-Medium/Qanelas-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Qanelas-Medium/Qanelas-Medium.woff) format("woff"), url(../fonts/Qanelas-Medium/Qanelas-Medium.ttf) format("truetype"), url(../fonts/Qanelas-Medium/Qanelas-Medium.otf) format("opentype"), url(../fonts/Qanelas-Medium/Qanelas-Medium.svg#Qanelas-Medium) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Qanelas Bold;
+    src: url(../fonts/Qanelas-Bold/Qanelas-Bold.eot);
+    src: url(../fonts/Qanelas-Bold/Qanelas-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Qanelas-Bold/Qanelas-Bold.woff) format("woff"), url(../fonts/Qanelas-Bold/Qanelas-Bold.ttf) format("truetype"), url(../fonts/Qanelas-Bold/Qanelas-Bold.otf) format("opentype"), url(../fonts/Qanelas-Bold/Qanelas-Bold.svg#Qanelas-Bold) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Qanelas;
+    src: url(../fonts/Qanelas-Regular/Qanelas-Regular.eot);
+    src: url(../fonts/Qanelas-Regular/Qanelas-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Qanelas-Regular/Qanelas-Regular.woff) format("woff"), url(../fonts/Qanelas-Regular/Qanelas-Regular.ttf) format("truetype"), url(../fonts/Qanelas-Regular/Qanelas-Regular.otf) format("opentype"), url(../fonts/Qanelas-Regular/Qanelas-Regular.svg#Qanelas-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Bookmaker;
+    src: url(../fonts/bookmaker/bookmaker.eot);
+    src: url(../fonts/bookmaker/bookmaker.eot?#iefix) format("embedded-opentype"), url(../fonts/bookmaker/bookmaker.woff2) format("woff2"), url(../fonts/bookmaker/bookmaker.woff) format("woff"), url(../fonts/bookmaker/bookmaker.ttf) format("truetype"), url(../fonts/bookmaker/bookmaker.svg#fontello) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: BrandFont;
+    src: url(../fonts/copybet/copybet.eot);
+    src: url(../fonts/copybet/copybet.eot?#iefix) format("embedded-opentype"), url(../fonts/copybet/copybet.woff2) format("woff2"), url(../fonts/copybet/copybet.woff) format("woff"), url(../fonts/copybet/copybet.ttf) format("truetype"), url(../fonts/copybet/copybet.svg#fontello) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: MemberArea;
+    src: url(../fonts/MemberArea/MemberArea.eot);
+    src: url(../fonts/MemberArea/MemberArea.eot?#iefix) format("embedded-opentype"), url(../fonts/MemberArea/MemberArea.woff2) format("woff2"), url(../fonts/MemberArea/MemberArea.woff) format("woff"), url(../fonts/MemberArea/MemberArea.ttf) format("truetype"), url(../fonts/MemberArea/MemberArea.svg#fontello) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: IconicStroke;
+    src: url(../fonts/IconicStroke/iconic_stroke.eot);
+    src: url(../fonts/IconicStroke/iconic_stroke.eot?#iefix) format("embedded-opentype"), url(../fonts/IconicStroke/iconic_stroke.ttf) format("truetype"), url(../fonts/IconicStroke/iconic_stroke.svg#iconic) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.brand-ico {
+    position: relative;
+    height: 16px;
+    font-size: 1.6rem;
+    line-height: 1;
+    font-weight: 400
+}
+
+.brand-ico:after, .brand-ico:before {
+    display: inline-block;
+    font-family: BrandFont;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: inherit;
+    font-variant: normal;
+    text-transform: none;
+    line-height: inherit;
+    color: currentColor;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.brand-ico_view_bets:before {
+    content: "\E800"
+}
+
+.brand-ico_view_brand:before {
+    content: "\E801"
+}
+
+.brand-ico_view_copied:before {
+    content: "\E802"
+}
+
+.brand-ico_view_errors:before {
+    content: "\E803"
+}
+
+.brand-ico_view_5:before {
+    content: "\E804"
+}
+
+.brand-ico_view_loss-limit:before {
+    content: "\E805"
+}
+
+.brand-ico_view_index:before {
+    content: "\E806"
+}
+
+.brand-ico_view_8:before {
+    content: "\E807"
+}
+
+.brand-ico_view_9:before {
+    content: "\E808"
+}
+
+.brand-ico_view_commission:before {
+    content: "\E809"
+}
+
+.brand-ico_view_stop-copy {
+    color: #cd7570
+}
+
+.brand-ico_view_stop-copy:before {
+    content: "\E80A"
+}
+
+.brand-ico_view_copy-plus:before {
+    content: "\E80B"
+}
+
+.brand-ico_view_income:before {
+    content: "\E80C"
+}
+
+.brand-ico_view_profit:before {
+    content: "\E80D"
+}
+
+.brand-ico_view_activated:before {
+    content: "\E80E"
+}
+
+.brand-ico_view_16:before {
+    content: "\E80F"
+}
+
+.brand-ico_view_days-in:before {
+    content: "\E810"
+}
+
+.brand-ico_view_best:before {
+    content: "\E811"
+}
+
+.brand-ico_view_subscribers:before {
+    content: "\E812"
+}
+
+.brand-ico_view_copybet:before {
+    content: "\E801";
+    color: #395173
+}
+
+.brand-ico_view_copybet:after {
+    content: "\E800";
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #d0d941;
+    background-color: #fff;
+    border-radius: 50%
+}
+
+.member-area-ico {
+    position: relative;
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1
+}
+
+.member-area-ico:before {
+    display: inline-block;
+    max-width: 100%;
+    font-family: MemberArea;
+    font-size: inherit;
+    line-height: inherit;
+    font-style: normal;
+    font-weight: inherit;
+    font-variant: normal;
+    text-transform: none;
+    color: currentColor;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.member-area-ico_view_affiliates:before {
+    content: "\E800"
+}
+
+.member-area-ico_view_settings:before {
+    content: "\E802"
+}
+
+.member-area-ico_view_copied:before {
+    content: "\E801"
+}
+
+.member-area-ico_view_wallet:before {
+    content: "\E803"
+}
+
+.bookmaker-ico {
+    position: relative;
+    display: inline-block
+}
+
+.bookmaker-ico:before {
+    display: inline-block;
+    font-family: Bookmaker;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: inherit;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 20px;
+    color: currentColor;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.bookmaker-ico_name_williamhill {
+    font-size: 1.6rem;
+    font-weight: 900
+}
+
+.bookmaker-ico_name_williamhill:before {
+    content: "\E802"
+}
+
+.bookmaker-ico_name_leon {
+    font-size: 2rem
+}
+
+.bookmaker-ico_name_leon:before {
+    content: "\E801";
+    transform: translateY(3px)
+}
+
+.bookmaker-ico_name_betfair {
+    font-size: 1rem;
+    font-weight: 900
+}
+
+.bookmaker-ico_name_betfair:before {
+    content: "\E800"
+}
