@@ -262,3 +262,7 @@
 .bookmaker-ico_name_betfair:before {
     content: "\E800"
 }
+
+body{
+    background-color: pink;
+}
