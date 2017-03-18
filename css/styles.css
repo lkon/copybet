@@ -1,65 +1,41 @@
 @font-face {
-    font-family: Qanelas Black;
-    src: url(../fonts/Qanelas-Black/Qanelas-Black.eot);
-    src: url(../fonts/Qanelas-Black/Qanelas-Black.eot?#iefix) format("embedded-opentype"), url(../fonts/Qanelas-Black/Qanelas-Black.woff) format("woff"), url(../fonts/Qanelas-Black/Qanelas-Black.ttf) format("truetype"), url(../fonts/Qanelas-Black/Qanelas-Black.otf) format("opentype"), url(../fonts/Qanelas-Black/Qanelas-Black.svg#Qanelas-Black) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Qanelas Black';
+    src: url('../fonts/Qanelas-Black/Qanelas-Black.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: Qanelas Medium;
-    src: url(../fonts/Qanelas-Medium/Qanelas-Medium.eot);
-    src: url(../fonts/Qanelas-Medium/Qanelas-Medium.eot?#iefix) format("embedded-opentype"), url(../fonts/Qanelas-Medium/Qanelas-Medium.woff) format("woff"), url(../fonts/Qanelas-Medium/Qanelas-Medium.ttf) format("truetype"), url(../fonts/Qanelas-Medium/Qanelas-Medium.otf) format("opentype"), url(../fonts/Qanelas-Medium/Qanelas-Medium.svg#Qanelas-Medium) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Qanelas Medium';
+    src: url('../fonts/Qanelas-Medium/Qanelas-Medium.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: Qanelas Bold;
-    src: url(../fonts/Qanelas-Bold/Qanelas-Bold.eot);
-    src: url(../fonts/Qanelas-Bold/Qanelas-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Qanelas-Bold/Qanelas-Bold.woff) format("woff"), url(../fonts/Qanelas-Bold/Qanelas-Bold.ttf) format("truetype"), url(../fonts/Qanelas-Bold/Qanelas-Bold.otf) format("opentype"), url(../fonts/Qanelas-Bold/Qanelas-Bold.svg#Qanelas-Bold) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Qanelas Bold';
+    src: url(../fonts/Qanelas-Bold/Qanelas-Bold.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: Qanelas;
-    src: url(../fonts/Qanelas-Regular/Qanelas-Regular.eot);
-    src: url(../fonts/Qanelas-Regular/Qanelas-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Qanelas-Regular/Qanelas-Regular.woff) format("woff"), url(../fonts/Qanelas-Regular/Qanelas-Regular.ttf) format("truetype"), url(../fonts/Qanelas-Regular/Qanelas-Regular.otf) format("opentype"), url(../fonts/Qanelas-Regular/Qanelas-Regular.svg#Qanelas-Regular) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Qanelas';
+    src: url('../fonts/Qanelas/Qanelas-Regular.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: Bookmaker;
-    src: url(../fonts/bookmaker/bookmaker.eot);
-    src: url(../fonts/bookmaker/bookmaker.eot?#iefix) format("embedded-opentype"), url(../fonts/bookmaker/bookmaker.woff2) format("woff2"), url(../fonts/bookmaker/bookmaker.woff) format("woff"), url(../fonts/bookmaker/bookmaker.ttf) format("truetype"), url(../fonts/bookmaker/bookmaker.svg#fontello) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Bookmaker';
+    src: url('../fonts/bookmaker/bookmaker.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: BrandFont;
-    src: url(../fonts/copybet/copybet.eot);
-    src: url(../fonts/copybet/copybet.eot?#iefix) format("embedded-opentype"), url(../fonts/copybet/copybet.woff2) format("woff2"), url(../fonts/copybet/copybet.woff) format("woff"), url(../fonts/copybet/copybet.ttf) format("truetype"), url(../fonts/copybet/copybet.svg#fontello) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'BrandFont';
+    src: url('../fonts/copybet/copybet.ttf') format("truetype");
 }
 
 @font-face {
-    font-family: MemberArea;
-    src: url(../fonts/MemberArea/MemberArea.eot);
-    src: url(../fonts/MemberArea/MemberArea.eot?#iefix) format("embedded-opentype"), url(../fonts/MemberArea/MemberArea.woff2) format("woff2"), url(../fonts/MemberArea/MemberArea.woff) format("woff"), url(../fonts/MemberArea/MemberArea.ttf) format("truetype"), url(../fonts/MemberArea/MemberArea.svg#fontello) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'MemberArea';
+    src: url(../fonts/MemberArea/MemberArea.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: IconicStroke;
-    src: url(../fonts/IconicStroke/iconic_stroke.eot);
-    src: url(../fonts/IconicStroke/iconic_stroke.eot?#iefix) format("embedded-opentype"), url(../fonts/IconicStroke/iconic_stroke.ttf) format("truetype"), url(../fonts/IconicStroke/iconic_stroke.svg#iconic) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'IconicStroke';
+    src: url('../fonts/IconicStroke/iconic_stroke.ttf') format("truetype");
 }
 
 .brand-ico {
@@ -70,7 +46,7 @@
 
 .brand-ico:after, .brand-ico:before {
     display: inline-block;
-    font-family: BrandFont;
+    font-family: 'BrandFont';
     font-size: inherit;
     font-style: normal;
     font-weight: inherit;
@@ -186,7 +162,7 @@
 .member-area-ico:before {
     display: inline-block;
     max-width: 100%;
-    font-family: MemberArea;
+    font-family: 'MemberArea';
     font-size: inherit;
     line-height: inherit;
     font-style: normal;
@@ -221,7 +197,7 @@
 
 .bookmaker-ico:before {
     display: inline-block;
-    font-family: Bookmaker;
+    font-family: 'Bookmaker';
     font-size: inherit;
     font-style: normal;
     font-weight: inherit;
