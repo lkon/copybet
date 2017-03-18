@@ -1,0 +1,2 @@
+# copybet
+for static copybet
